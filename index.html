@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Urvishkumar Badreshiya: operations and procurement portfolio for the Procurement Performance &amp; AI Analyst role at ADM, Poznań.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Urvishkumar Badreshiya">
+<meta property="og:description" content="Operations and procurement: stock variance, supplier savings, KPI reporting and AI-built dashboards.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23012169'/%3E%3Ctext x='32' y='41' font-family='Georgia' font-weight='700' font-size='26' text-anchor='middle' fill='white'%3EUB%3C/text%3E%3C/svg%3E">
+<title>Urvishkumar Badreshiya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700;800&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: corporate-editorial in a navy/green palette. Navy hero band, then a scroll-told story with a sticky route card, animated stat rings, cases, flip-reveal habit cards and a dashboard mock-up. Deliberately single light theme. */
+:root {
+  color-scheme: light;
+  --navy: #012169;
+  --navy-2: #0B2F86;
+  --blue: #426DA9;
+  --sky: #A9D6DF;
+  --green: #00AD50;
+  --lime: #8BC400;
+  --ink: #1B1D22;
+  --text: #434343;
+  --muted: #6B7280;
+  --grey: #F2F2F2;
+  --rule: #D9DCE3;
+  --white: #FFFFFF;
+  --slab: "Roboto Slab", "Rockwell", Georgia, serif;
+  --sans: "Carlito", "Calibri", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --out: cubic-bezier(.22, 1, .36, 1);
+}
+html { scroll-behavior: smooth; }
+body { background: var(--white); color: var(--text); font-family: var(--sans); font-size: 18px; line-height: 1.55; }
+a { color: var(--navy); }
+a:focus-visible, button:focus-visible, .habit:focus-visible { outline: 3px solid var(--lime); outline-offset: 3px; }
+h1, h2, h3 { font-family: var(--slab); color: var(--ink); line-height: 1.08; margin: 0; text-wrap: balance; }
+p { margin: 0; max-width: 64ch; }
+.inner { max-width: 1160px; margin: 0 auto; padding-inline: 20px; }
+
+/* Reading progress */
+.progress { position: fixed; left: 0; right: 0; top: 0; height: calc(4px + env(safe-area-inset-top, 0px)); padding-top: env(safe-area-inset-top, 0px); z-index: 50; pointer-events: none; }
+.progress i { display: block; height: 4px; background: var(--lime); transform-origin: 0 50%; transform: scaleX(0); }
+
+/* Utility + header */
+.util { background: var(--grey); font-size: 14px; }
+.util .inner { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px 22px; padding-block: 7px; }
+.util .item { display: inline-flex; align-items: center; gap: 8px; color: var(--navy); }
+.copy { font: inherit; font-size: 12px; font-weight: 700; color: var(--navy); background: var(--white); border: 1px solid var(--navy); border-radius: 999px; padding: 1px 10px; cursor: pointer; }
+.head { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 40; background: var(--white); border-bottom: 1px solid var(--rule); }
+.head .inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 28px; padding-block: 12px; }
+.mark { display: flex; align-items: center; gap: 12px; text-decoration: none; min-width: 0; }
+.mark b { flex: none; font-family: var(--slab); font-weight: 800; font-size: 19px; color: var(--white); background: var(--navy); width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; }
+.mark span { font-family: var(--slab); font-weight: 700; color: var(--navy); font-size: clamp(16px, 2.2vw, 20px); white-space: nowrap; }
+nav { display: flex; flex-wrap: wrap; gap: 6px 26px; }
+nav a { color: var(--navy); text-decoration: none; font-size: 17px; background-image: linear-gradient(var(--green), var(--green)); background-size: 0% 2px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size .3s var(--out); padding-bottom: 2px; }
+nav a:hover { background-size: 100% 2px; }
+
+/* Hero */
+.hero { background: var(--navy); color: var(--white); position: relative; overflow: hidden; }
+.hero .inner { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 40px; padding-block: 64px 76px; align-items: center; }
+.eyebrow { font-size: 14px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--lime); }
+.hero h1 { color: var(--white); font-weight: 800; font-size: clamp(38px, 5.6vw, 64px); margin-top: 14px; }
+.hero h1 .w { display: inline-block; }
+.hero p { color: #E6EAF3; font-size: 20px; margin-top: 20px; }
+.btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.pill { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none; border-radius: 999px; padding: 11px 22px; border: 2px solid var(--white); color: var(--navy); background: var(--white); transition: transform .25s var(--out), background-color .25s var(--out), color .25s var(--out); }
+.pill:hover { transform: translateY(-2px); }
+.pill.ghost { background: transparent; color: var(--white); }
+.pill.ghost:hover { background: var(--white); color: var(--navy); }
+.pill.dark { background: var(--navy); color: var(--white); border-color: var(--navy); }
+.pill.line { background: var(--white); color: var(--navy); border-color: var(--navy); }
+.pill::after { content: "▶"; font-size: 11px; }
+.hero-art { position: relative; min-height: 400px; }
+.hero-art .outline { position: absolute; right: 8%; top: 0; width: 62%; height: 48%; border: 3px solid var(--green); border-radius: 0 60px 0 60px; }
+.hero-art .panel { position: absolute; right: 0; top: 7%; width: 58%; z-index: 1; background: var(--white); color: var(--ink); padding: 22px 22px 18px; box-shadow: 0 18px 40px rgba(0,0,0,.25); }
+.panel .k { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--blue); }
+.panel .v { font-family: var(--slab); font-weight: 800; font-size: 44px; color: var(--navy); line-height: 1; margin-top: 8px; font-variant-numeric: tabular-nums; }
+.panel .s { font-size: 16px; margin-top: 8px; color: var(--text); }
+.hero-art .disc { position: absolute; left: 0; bottom: 0; width: 170px; height: 170px; border-radius: 50%; background: var(--lime); display: grid; place-items: center; text-align: center; color: var(--navy); padding: 18px; }
+.disc b { font-family: var(--slab); font-size: 40px; font-weight: 800; line-height: 1; display: block; }
+.disc span { font-size: 15px; font-weight: 700; line-height: 1.2; }
+
+/* Sections */
+section { padding-block: 84px 20px; }
+.split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 56px; align-items: start; }
+.split.flip > :first-child { order: 2; }
+h2 { font-size: clamp(32px, 4vw, 46px); font-weight: 800; }
+.lead { font-size: 21px; color: var(--ink); margin-top: 18px; }
+.prose { display: grid; gap: 16px; margin-top: 18px; }
+.prose p strong { color: var(--ink); }
+.case-tag { font-size: 14px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--green); }
+.case h2 { margin-top: 10px; }
+
+/* Offset block */
+.offset { position: relative; padding: 0 0 26px 26px; }
+.offset .deco { position: absolute; left: 0; bottom: 0; width: 55%; height: 80%; background: var(--sky); }
+.offset.navy .deco { background: var(--navy); }
+.offset > .dash { position: relative; }
+.offset > .card { position: relative; background: var(--white); border: 1px solid var(--rule); padding: 22px; }
+
+/* Story + sticky route */
+.story p[data-stops] { transition: color .4s var(--out); }
+.route-wrap { position: sticky; top: 96px; }
+.route-map { display: block; width: 100%; height: auto; margin: 6px 0 4px; }
+.route-map .trace-bg { fill: none; stroke: var(--rule); stroke-width: 3; stroke-dasharray: 2 6; stroke-linecap: round; }
+.route-map .trace { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; }
+.route-map .pt { fill: var(--white); stroke: var(--navy); stroke-width: 2.5; }
+.route-map .pt.on { fill: var(--lime); }
+.route-map text { font-family: var(--sans); font-size: 12px; fill: var(--muted); }
+.route { list-style: none; margin: 16px 0 0; padding: 0 0 0 22px; position: relative; display: grid; }
+.route::before { content: ""; position: absolute; left: 5px; top: 8px; bottom: 8px; width: 2px; background: var(--rule); }
+.route-rail { position: relative; margin-top: 16px; }
+.route-rail .route { margin-top: 0; }
+.route-rail .fill { position: absolute; z-index: 1; left: 5px; top: 8px; bottom: 8px; width: 2px; background: var(--green); transform-origin: 50% 0; transform: scaleY(1); }
+.route li { position: relative; display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding-block: 10px; transition: opacity .4s var(--out), transform .4s var(--out); }
+.route li::before { content: ""; position: absolute; left: -22px; top: 15px; width: 12px; height: 12px; border-radius: 50%; background: var(--white); border: 2px solid var(--navy); transition: background-color .3s var(--out), transform .3s var(--out); }
+.route li.active::before { background: var(--lime); transform: scale(1.25); }
+.route .yr { font-weight: 700; color: var(--blue); font-variant-numeric: tabular-nums; font-size: 16px; }
+.route b { color: var(--ink); display: block; font-size: 17px; }
+.route span { font-size: 15px; }
+.js-motion .route li { opacity: .45; }
+.js-motion .route li.active { opacity: 1; transform: translateX(4px); }
+
+/* Stat rings */
+.stats-wrap { background: var(--grey); margin-top: 84px; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; padding-block: 56px; }
+.stat { display: grid; gap: 12px; justify-items: start; align-content: start; }
+.ring { position: relative; width: 112px; height: 112px; }
+.ring svg { width: 112px; height: 112px; transform: rotate(-90deg); }
+.ring .bg { fill: none; stroke: #DDE2EC; stroke-width: 9; }
+.ring .fg { fill: none; stroke: var(--navy); stroke-width: 9; stroke-linecap: round; }
+.ring .tick { stroke: var(--green); stroke-width: 4; }
+.ring .gaps line { stroke: var(--grey); stroke-width: 5; }
+.ring .num { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--slab); font-weight: 800; font-size: 26px; color: var(--navy); font-variant-numeric: tabular-nums; }
+.stat h3 { font-size: 20px; }
+.stat p { font-size: 16px; }
+.stat .note { font-size: 13px; font-weight: 700; color: var(--green); letter-spacing: .06em; text-transform: uppercase; }
+
+/* Fit table */
+.fit { margin-top: 28px; border-top: 2px solid var(--navy); }
+.fit-row { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.6fr) 120px; gap: 20px; padding: 16px 4px; border-bottom: 1px solid var(--rule); align-items: start; transition: background-color .3s var(--out); }
+.fit-row:not(.fit-head):hover { background: #F7F9FC; }
+.fit-head { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--blue); padding-block: 12px; }
+.fit-row span:first-child { font-weight: 700; color: var(--ink); }
+.fit-row span:nth-child(2) { font-size: 17px; }
+.chip { font-style: normal; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; display: inline-block; white-space: nowrap; }
+.chip.strong { background: #E3F6EB; color: #00753A; }
+.chip.part { background: #FFF4D6; color: #8A5A00; }
+.chip.gap { background: #FDE8E6; color: #A1261A; }
+@media (max-width: 760px) { .fit-row { grid-template-columns: minmax(0, 1fr); gap: 6px; } .fit-head { display: none; } }
+
+/* Chart */
+.chart svg { display: block; width: 100%; height: auto; }
+.chart .bar { transform-box: fill-box; }
+.chart .bar.pos { transform-origin: 0% 50%; }
+.chart .bar.neg { transform-origin: 100% 50%; }
+.chart .dot { transform-box: fill-box; transform-origin: 50% 50%; }
+.chart .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 14px; margin-top: 10px; }
+.sw { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
+.lesson { margin-top: 22px; background: var(--grey); border-left: 5px solid var(--green); padding: 16px 18px; color: var(--ink); }
+.lesson b { display: block; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--green); margin-bottom: 4px; }
+
+/* Ticket */
+.ticket { font-family: var(--mono); font-size: 14.5px; }
+.ticket .t-head { display: flex; justify-content: space-between; gap: 10px; border-bottom: 2px dashed var(--rule); padding-bottom: 8px; margin-bottom: 6px; color: var(--navy); font-weight: 700; }
+.ticket dl { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 8px 12px; margin: 0; }
+.ticket dt { color: var(--blue); font-weight: 700; font-variant-numeric: tabular-nums; }
+.ticket dd { margin: 0; color: var(--ink); }
+
+/* Blue band */
+.band { background: var(--blue); color: var(--white); margin-top: 84px; }
+.band .inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; padding-block: 64px; }
+.band h2 { color: var(--white); }
+.band p { color: #EEF2F9; }
+.band .quote { font-family: var(--slab); font-weight: 700; font-size: clamp(24px, 2.8vw, 32px); line-height: 1.25; color: var(--white); }
+.band .who { margin-top: 14px; font-size: 16px; color: #EEF2F9; }
+
+/* Habit cards */
+.habits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 30px; }
+.habit { position: relative; overflow: hidden; background: var(--grey); border-top: 4px solid var(--navy); min-height: 230px; padding: 22px; display: grid; align-content: space-between; gap: 18px; cursor: default; }
+.habit .front { display: grid; gap: 22px; align-content: space-between; height: 100%; }
+.habit .ico { display: block; width: 54px; height: 54px; color: var(--navy); }
+.habit .ico svg { width: 100%; height: 100%; }
+.habit h3 { font-size: 22px; }
+.habit .hint { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--green); }
+.habit .back { position: absolute; inset: 0; background: var(--navy); color: var(--white); padding: 22px; display: grid; align-content: start; gap: 10px; }
+.habit .back h3 { color: var(--white); font-size: 20px; }
+.habit .back p { color: #E6EAF3; font-size: 17px; }
+@media (hover: hover) and (pointer: fine) {
+  .habit { cursor: pointer; }
+  .habit .back { transform: translateY(101%); transition: transform .45s var(--out); }
+  .habit .front > * { transition: transform .45s var(--out), opacity .3s var(--out); }
+  .habit:hover .back, .habit:focus-within .back, .habit:focus .back { transform: translateY(0); }
+  .habit:hover .front > *, .habit:focus .front > * { transform: translateY(-10px); opacity: .4; }
+}
+@media not ((hover: hover) and (pointer: fine)) {
+  .habit { min-height: 0; }
+  .habit .back { position: static; background: transparent; color: var(--text); padding: 0; }
+  .habit .back h3, .habit .hint { display: none; }
+  .habit .back p { color: var(--text); }
+}
+
+/* 90-day bar */
+.plan-bar { margin-top: 44px; }
+.plan-track { position: relative; height: 12px; background: #DDE2EC; border-radius: 999px; overflow: hidden; }
+.plan-track i { position: absolute; inset: 0; background: linear-gradient(90deg, var(--green), var(--lime)); transform-origin: 0 50%; transform: scaleX(1); }
+.plan-marks { display: grid; grid-template-columns: 1fr 1fr 2fr 2fr; margin-top: 0; }
+.plan-marks div { border-left: 2px solid var(--white); padding: 16px 16px 0 0; display: grid; gap: 4px; align-content: start; min-width: 0; }
+.plan-marks div + div { padding-left: 14px; border-left: 2px dashed var(--rule); }
+.plan-marks .d { font-weight: 700; color: var(--green); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; }
+.plan-marks b { font-family: var(--slab); color: var(--navy); font-size: 20px; }
+.plan-marks span { font-size: 16px; }
+
+/* Dashboard mock */
+.dash { background: var(--white); border: 1px solid var(--rule); box-shadow: 0 20px 44px rgba(1,33,105,.14); overflow: hidden; }
+.dash .bar { display: flex; align-items: center; gap: 6px; padding: 9px 12px; background: var(--grey); border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--muted); }
+.dash .bar i { width: 10px; height: 10px; border-radius: 50%; background: #C9CFDA; }
+.dash .bar span { margin-left: 8px; font-weight: 700; color: var(--navy); letter-spacing: .08em; }
+.dash .body { display: grid; grid-template-columns: 124px minmax(0, 1fr); min-height: 300px; }
+.dash .side { background: var(--navy); padding: 14px 10px; display: grid; gap: 4px; align-content: start; }
+.dash .side div { font-size: 13px; font-weight: 700; color: #BFC9E0; padding: 7px 9px; letter-spacing: .06em; }
+.dash .side div.on { background: rgba(255,255,255,.12); color: var(--white); border-left: 3px solid var(--lime); }
+.dash .main { padding: 16px; display: grid; gap: 14px; align-content: start; min-width: 0; }
+.dash .tag { justify-self: start; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); background: #E7EEF8; padding: 3px 8px; }
+.kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.kpis div { border: 1px solid var(--rule); padding: 10px; display: grid; gap: 2px; }
+.kpis small { font-size: 12px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.kpis b { font-family: var(--slab); color: var(--navy); font-size: 22px; font-variant-numeric: tabular-nums; }
+.spark { width: 100%; height: auto; display: block; }
+.spark .grid { stroke: #E6E9F0; stroke-width: 1; }
+.spark .line { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.spark .area { fill: rgba(0,173,80,.10); }
+.spark .endpt { fill: var(--navy); }
+.spark text { font-family: var(--sans); font-size: 12px; fill: var(--muted); }
+.stack { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.stack span { font-size: 14px; font-weight: 700; color: var(--navy); border: 1px solid var(--navy); border-radius: 999px; padding: 3px 12px; }
+
+/* FAQ */
+.faq { margin-top: 26px; border-top: 1px solid var(--rule); }
+.faq details { border-bottom: 1px solid var(--rule); padding-block: 16px; }
+.faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px; font-family: var(--slab); font-weight: 700; font-size: 20px; color: var(--navy); }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; color: var(--green); font-size: 24px; line-height: 1; transition: transform .3s var(--out); }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin-top: 10px; }
+
+footer { background: var(--navy); color: #C9D2E6; margin-top: 90px; font-size: 15px; }
+footer .inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; padding-block: 28px; }
+footer b { color: var(--white); }
+
+@media (max-width: 860px) {
+  .hero .inner, .split, .band .inner { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .split.flip > :first-child { order: 0; }
+  .route-wrap { position: static; }
+  .hero-art { min-height: 380px; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .habits { grid-template-columns: minmax(0, 1fr); }
+  .plan-marks { grid-template-columns: 1fr 1fr; row-gap: 14px; }
+  .dash .body { grid-template-columns: minmax(0, 1fr); }
+  .dash .side { grid-auto-flow: column; overflow-x: auto; }
+  nav { display: none; }
+}
+@media (max-width: 460px) {
+  .hero-art .panel { width: 64%; }
+  .panel .v { font-size: 34px; }
+  .hero-art .disc { width: 140px; height: 140px; }
+  .disc b { font-size: 32px; }
+  .route li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .stats { grid-template-columns: minmax(0, 1fr); }
+  .kpis { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
+</style>
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+
+<div class="progress" aria-hidden="true"><i id="progress"></i></div>
+
+<div class="util"><div class="inner">
+  <span class="item"><span id="email">urvish.mb@gmail.com</span><button class="copy" type="button" data-copy="email">Copy</button></span>
+  <span class="item"><span id="phone">+91 99988 28555</span><button class="copy" type="button" data-copy="phone">Copy</button></span>
+  <a class="item" href="https://www.linkedin.com/in/urvishkumar-badreshiya/" rel="noopener">LinkedIn</a>
+</div></div>
+
+<header class="head"><div class="inner">
+  <a class="mark" href="#top"><b>UB</b><span>Urvishkumar Badreshiya</span></a>
+  <nav aria-label="Sections">
+    <a href="#story">My story</a>
+    <a href="#fit">Fit</a>
+    <a href="#work">The work</a>
+    <a href="#how">How I work</a>
+    <a href="#questions">Questions</a>
+  </nav>
+</div></header>
+
+<div class="hero" id="top"><div class="inner">
+  <div>
+    <div class="eyebrow">For ADM · Procurement Performance &amp; AI Analyst · Poznań</div>
+    <h1 id="hero-h1">I go looking for the problem behind the problem.</h1>
+    <p>From factory floors to packed restaurant openings, I have learned to work where process, people, cost and customer experience collide. The work that interests me is finding where the system breaks, fixing it, and making the fix work for the people running it.</p>
+    <div class="btns">
+      <a class="pill" href="#work">See the work</a>
+      <a class="pill ghost" href="#story">Read my story</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="outline"></div>
+    <div class="panel">
+      <div class="k">Every week at Shake Shack</div>
+      <div class="v">11 suppliers</div>
+      <div class="s">About 180 product lines ordered to each supplier's cut-off, and every delivery checked against its purchase order.</div>
+    </div>
+    <div class="disc"><div><b>70%</b><span>of refunded order value won back by disputing</span></div></div>
+  </div>
+</div></div>
+
+<section id="story"><div class="inner split">
+  <div class="story">
+    <h2 class="reveal">The first time I understood operations</h2>
+    <div class="prose">
+      <p class="lead" data-stops="0">At university, the clue came from an event.</p>
+      <p data-stops="0">It was a non-technical event at an engineering college, running on a fixed budget in a place where the technical events were supposed to draw the crowd. We negotiated what we could, visited nearby colleges to market it ourselves, and drew more participants than any other event. On the day, the problems arrived one after another, including things nobody had planned for. Solving them, keeping people moving and watching the whole thing come together was what made operations click for me.</p>
+      <p data-stops="1">That instinct found a harder environment at <strong>Vikram Engineering Works</strong>. Stainless steel, iron and CNC tooling had to arrive at the right price. Production had to keep moving. Customers in 11 states were waiting at the other end of the supply chain. A seasonal surface-roughness problem was hurting relationships with business customers, and the answer came through a technical fix rather than accepting complaints as part of manufacturing. Costs came down, daily output rose, and complaints fell sharply. The lesson stayed with me: a problem does not have to disappear completely before the work counts.</p>
+      <p data-stops="2,3">Then came Birmingham, and a different kind of pressure. When I joined <strong>Greggs</strong>, the store had no manager, training had stopped and daily sales had fallen by 25–30%. On my second day, a supervisor quit after a quarrel, leaving me on the front counter before I had been trained on the till or the products. The accent was difficult to understand. The pace was something I had never experienced in India. That night, I nearly called my manager to quit. Instead, the next shift became another problem to solve.</p>
+      <p data-stops="3">The difference came from looking closely at what the system was asking the team to do. We were producing more sandwiches than customers were buying, so production was reshaped around the real sales pattern. Savouries were baked closer to demand rather than left to go cold. Ordering changed with weekdays, weekends, weather, local events and bank holidays. Peak staffing was redesigned so the sandwich maker stayed where demand was highest. The store began to breathe again, with sales growing and waste falling.</p>
+      <p data-stops="4"><strong>Fresh Bake</strong> brought the same thinking into a new store, with a different obstacle: too many opinions and no clear chain of command. Being the youngest person at the table meant my ideas were often tried only after someone else's had failed. That was frustrating. So I kept building things that could be tested: layout, planograms, 5S, learning materials, routines, recruitment and supplier choices. A uniform quote that felt too high became a procurement exercise after hours, ending with a supplier switch and a much lower cost.</p>
+      <p data-stops="5,6">At <strong>Shake Shack</strong>, the problems arrived all at once. Opening the Birmingham site meant queues every day for 15 days, a largely new team, huge deliveries and the knowledge that a food-safety inspector could walk in at any time. Later, on International Burger Day, a major stock delivery arrived just as the doors opened. On another day, a stock count appeared to be thousands of pounds short until the previous count exposed the real issue. Those moments brought everything together: numbers, suppliers, people, compliance, customer experience and decisions made while the clock is running. The setting changes. The need to make the system work does not.</p>
+    </div>
+  </div>
+  <div class="route-wrap">
+    <div class="offset">
+      <span class="deco" aria-hidden="true"></span>
+      <div class="card">
+        <h3 style="font-size:22px">The route so far</h3>
+        <svg class="route-map" viewBox="0 0 440 150" role="img" aria-label="Schematic route: Gujarat, then Birmingham, then Leicester, back to Birmingham, then Poznań. Not to scale.">
+          <path id="trace-bg" class="trace-bg" d="M 30 118 C 120 118, 150 40, 230 40 C 270 40, 290 70, 318 78 C 300 96, 250 70, 232 46 C 300 20, 380 40, 414 70"/>
+          <path id="trace" class="trace" d="M 30 118 C 120 118, 150 40, 230 40 C 270 40, 290 70, 318 78 C 300 96, 250 70, 232 46 C 300 20, 380 40, 414 70"/>
+          <circle class="pt" data-pt="0" cx="30" cy="118" r="7"/><text x="30" y="142" text-anchor="middle">Gujarat</text>
+          <circle class="pt" data-pt="2" cx="230" cy="40" r="7"/><text x="222" y="24" text-anchor="middle">Birmingham</text>
+          <circle class="pt" data-pt="4" cx="318" cy="78" r="7"/><text x="318" y="102" text-anchor="middle">Leicester</text>
+          <circle class="pt" data-pt="6" cx="414" cy="70" r="7"/><text x="410" y="96" text-anchor="middle">Poznań</text>
+        </svg>
+        <div class="route-rail"><span class="fill" id="route-fill" aria-hidden="true"></span>
+        <ul class="route" id="route">
+          <li data-i="0"><span class="yr">2014–18</span><div><b>B.Tech, Mechanical Engineering</b><span>C. U. Shah University, Gujarat</span></div></li>
+          <li data-i="1"><span class="yr">2018–21</span><div><b>Assistant Operations Manager</b><span>Vikram Engineering Works: plant, procurement, planning, supply chain</span></div></li>
+          <li data-i="2"><span class="yr">2022–23</span><div><b>MBA, Operations Management (2:1)</b><span>Aston University, Birmingham</span></div></li>
+          <li data-i="3"><span class="yr">2022–24</span><div><b>Assistant Store Manager</b><span>Greggs · Euro Garages across three sites</span></div></li>
+          <li data-i="4"><span class="yr">2024</span><div><b>Assistant Manager</b><span>Fresh Bake · Treats Foods, first store, Leicester</span></div></li>
+          <li data-i="5"><span class="yr">2024–25</span><div><b>Assistant Operations Manager</b><span>Shake Shack Birmingham · Diverse Dining</span></div></li>
+          <li data-i="6"><span class="yr">Next</span><div><b>Procurement Performance &amp; AI Analyst</b><span>ADM Global Business Services, Poznań</span></div></li>
+        </ul></div>
+        <p style="font-size:13px;color:var(--muted);margin-top:10px">Map is schematic, not to scale.</p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<div class="stats-wrap"><div class="inner stats" aria-label="Key figures">
+  <div class="stat" data-ring="100" data-segments="11"><div class="ring"><svg viewBox="0 0 112 112" aria-hidden="true"><circle class="bg" cx="56" cy="56" r="46"/><circle class="fg" cx="56" cy="56" r="46"/><g class="gaps"></g></svg><div class="num" data-to="11">11</div></div><h3>Suppliers a week</h3><p>Ordered to each cut-off at Shake Shack, with every delivery reconciled against its purchase order.</p><span class="note">One segment per supplier</span></div>
+  <div class="stat" data-ring="100"><div class="ring"><svg viewBox="0 0 112 112" aria-hidden="true"><circle class="bg" cx="56" cy="56" r="46"/><circle class="fg" cx="56" cy="56" r="46"/></svg><div class="num" data-to="180" data-prefix="≈">≈180</div></div><h3>Product lines</h3><p>Food, packaging, chemicals and drinks on one weekly order sheet, and about 170 lines checked at every stock count.</p></div>
+  <div class="stat" data-ring="70"><div class="ring"><svg viewBox="0 0 112 112" aria-hidden="true"><circle class="bg" cx="56" cy="56" r="46"/><circle class="fg" cx="56" cy="56" r="46"/></svg><div class="num" data-to="70" data-suffix="%">70%</div></div><h3>Refunds recovered</h3><p>Of refunded order value won back from Deliveroo by disputing refunds every week, May–July 2025.</p></div>
+  <div class="stat" data-ring="40"><div class="ring"><svg viewBox="0 0 112 112" aria-hidden="true"><circle class="bg" cx="56" cy="56" r="46"/><circle class="fg" cx="56" cy="56" r="46"/></svg><div class="num" data-to="40" data-prefix="≈" data-suffix="%">≈40%</div></div><h3>Uniform cost cut</h3><p>A supplier saving negotiated after hours at Fresh Bake, then checked by the Operations Director before we switched.</p></div>
+</div></div>
+
+<section id="fit"><div class="inner">
+  <div class="case-tag">Your brief, my evidence</div>
+  <h2 class="reveal" style="margin-top:10px">What the role asks for, and where I have done it</h2>
+  <p class="lead">Taken line by line from the Procurement Performance &amp; AI Analyst advert. Gaps are marked as gaps.</p>
+  <div class="fit" role="table" aria-label="Role requirements matched to evidence">
+    <div class="fit-row fit-head" role="row"><span role="columnheader">The advert asks for</span><span role="columnheader">Where I have done it</span><span role="columnheader">Match</span></div>
+    <div class="fit-row" role="row"><span role="cell">Procurement KPIs, dashboards and standardised reporting</span><span role="cell">Weekly commercial report and a cost-of-goods report every period at Shake Shack; Power BI demand forecasts at Greggs; month-on-month KPI reports for 8 products at Vikram; the FIREWATCH dashboard below.</span><span role="cell"><i class="chip strong">Strong</i></span></div>
+    <div class="fit-row" role="row"><span role="cell">Savings, cost avoidance and supplier performance</span><span role="cell">Steel, iron and tooling unit costs down 2–3% at Vikram; uniforms about 40% and ingredients about 5% lower at Fresh Bake; 70% of disputed refunds recovered at Shake Shack.</span><span role="cell"><i class="chip strong">Strong</i></span></div>
+    <div class="fit-row" role="row"><span role="cell">Partner with Finance to validate savings</span><span role="cell">The Fresh Bake saving only went ahead after the Operations Director checked it himself (case 3). Not yet done with a Finance team.</span><span role="cell"><i class="chip part">Partial</i></span></div>
+    <div class="fit-row" role="row"><span role="cell">Analyse spend, inventory, working capital, freight and purchasing patterns</span><span role="cell">Stock variance across about 170 lines (case 1); ordering for 11 suppliers and about 180 lines; supply chain to 11 states through 3PL partners at Vikram. I have not done formal working-capital or freight-cost analysis.</span><span role="cell"><i class="chip part">Partial</i></span></div>
+    <div class="fit-row" role="row"><span role="cell">Governance, compliance and risk monitoring</span><span role="cell">Purchase orders reconciled against goods received for every delivery; audit readiness with a 5-star food hygiene rating and 99% health and safety.</span><span role="cell"><i class="chip strong">Strong</i></span></div>
+    <div class="fit-row" role="row"><span role="cell">Identify and implement AI and automation that reduce manual work</span><span role="cell">Designed and built FIREWATCH OS with Claude Code, a dashboard that turns household finances, a ten-year plan and routines into a few numbers that matter.</span><span role="cell"><i class="chip strong">Strong</i></span></div>
+    <div class="fit-row" role="row"><span role="cell">Advanced Excel, Power BI, ERP and procurement data</span><span role="cell">Advanced Excel and Power BI; Python and SQL certificates (IBM). I have worked in stock and ordering systems, but not yet in an ERP procurement module.</span><span role="cell"><i class="chip gap">Gap: ERP</i></span></div>
+    <div class="fit-row" role="row"><span role="cell">Degree and 3+ years in procurement, supply chain or analytics</span><span role="cell">B.Tech Mechanical Engineering and MBA Operations Management (2:1); three and a half years of procurement and supply chain at Vikram, then weekly supplier management at Shake Shack.</span><span role="cell"><i class="chip strong">Strong</i></span></div>
+  </div>
+</div></section>
+
+<section id="work" class="case"><div class="inner split">
+  <div>
+    <div class="case-tag">Case 1 · Stock control</div>
+    <h2 class="reveal">The £4,000 shortage that wasn't</h2>
+    <div class="prose">
+      <p class="lead">The stock count came back about £4,000 below what the system expected.</p>
+      <p>Most of it appeared to sit in five lines: chicken, chicken bites, beef, buns and fries. At first glance, that is the kind of number that demands an immediate explanation. A shortfall that large pulls everyone towards the latest figure, looking for something that must have gone wrong.</p>
+      <p>Then I went backwards. At the previous count, the stock system had been down. Those same five lines had shown surpluses of almost exactly the same size. The two counts told one story when viewed separately and another when put together.</p>
+      <p>So I netted them. Across both counts, the five lines came to under £40. The apparent £4,000 shortage was largely the system correcting the error from the previous count.</p>
+      <p>There was one exception: chicken bites. That line stayed short after the two counts were reconciled, so it was the one item I investigated.</p>
+    </div>
+    <div class="lesson reveal"><b>What I took from it</b>A variance should be traced through its history before it is treated as a loss. The number tells you where to look; the process tells you what happened.</div>
+  </div>
+  <div class="offset">
+    <span class="deco" aria-hidden="true"></span>
+    <div class="card chart" id="chart" role="img" aria-label="Chart: five items with a surplus at the earlier count and a matching shortfall at this count. Chicken bites nets furthest from zero.">
+      <h3 style="font-size:20px;margin-bottom:12px">Two counts, cancelling out</h3>
+      <svg viewBox="0 0 540 250" xmlns="http://www.w3.org/2000/svg">
+        <g font-family="Carlito, Calibri, Arial, sans-serif" font-size="14">
+          <line x1="320" y1="12" x2="320" y2="212" stroke="#1B1D22" stroke-width="1.5"/>
+          <text x="320" y="234" text-anchor="middle" fill="#434343">0</text>
+          <text x="200" y="234" text-anchor="middle" fill="#012169">◀ short this count</text>
+          <text x="448" y="234" text-anchor="middle" fill="#00AD50">over last count ▶</text>
+          <text x="112" y="38" text-anchor="end" fill="#1B1D22">Burger buns</text>
+          <rect class="bar pos" x="320" y="24" width="49.3" height="10" fill="#00AD50"/><rect class="bar neg" x="275" y="36" width="45" height="10" fill="#012169"/>
+          <text x="112" y="78" text-anchor="end" fill="#1B1D22">Beef patties</text>
+          <rect class="bar pos" x="320" y="64" width="115.2" height="10" fill="#00AD50"/><rect class="bar neg" x="206" y="76" width="114" height="10" fill="#012169"/>
+          <text x="112" y="118" text-anchor="end" fill="#1B1D22">Chicken</text>
+          <rect class="bar pos" x="320" y="104" width="146.6" height="10" fill="#00AD50"/><rect class="bar neg" x="168.9" y="116" width="151.1" height="10" fill="#012169"/>
+          <text x="112" y="158" text-anchor="end" fill="#1B1D22">Chicken bites</text>
+          <rect class="bar pos" x="320" y="144" width="176.1" height="10" fill="#00AD50"/><rect class="bar neg" x="119.9" y="156" width="200.1" height="10" fill="#012169"/>
+          <circle class="dot" cx="296" cy="161" r="6" fill="#8BC400" stroke="#012169" stroke-width="1.5"/>
+          <text x="112" y="198" text-anchor="end" fill="#1B1D22">Fries</text>
+          <rect class="bar pos" x="320" y="184" width="106.1" height="10" fill="#00AD50"/><rect class="bar neg" x="228.7" y="196" width="91.3" height="10" fill="#012169"/>
+        </g>
+      </svg>
+      <div class="legend"><span><i class="sw" style="background:#00AD50"></i>surplus at the earlier count</span><span><i class="sw" style="background:#012169"></i>shortfall at this count</span><span><i class="sw" style="background:#8BC400;border-radius:50%"></i>the one that didn't cancel</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="case"><div class="inner split flip">
+  <div>
+    <div class="case-tag">Case 2 · International Burger Day</div>
+    <h2 class="reveal">11:00, the doors open</h2>
+    <div class="prose">
+      <p class="lead">At 10:30 on 28 May 2025, the queue was already forming behind the shutter.</p>
+      <p>International Burger Day meant buy-one-get-one-free on every burger. Before the doors opened, the shape of the day was already visible.</p>
+      <p>Then, at 11:00, the back door brought another problem: a delivery of about £4,000 of fresh and frozen stock. Everyone had over-ordered for what was expected to be a record day, and the delivery could not sit outside.</p>
+      <p>Two slower team members came off Expo to put it away. That left me alone on Expo with 15–20 orders on the screen while the queue kept moving.</p>
+      <p>The useful thing was what happened next. Most of the team knew most stations. When their own station came under control, people came over to help. The operation could move people towards the pressure point instead of leaving everyone fixed to their original position.</p>
+      <p>At 11:30 the dining room needed help, so I moved there. Once service was back on time, I stepped off the stations and watched the whole operation: restocking, compliance, temperature checks and guests. After 15:00, breaks were covered two at a time. The day finished at about £11,000 after discounts. There was no friction anywhere, and the team enjoyed the shift as much as I did.</p>
+    </div>
+    <div class="lesson reveal"><b>What I took from it</b>Cross-training turns a staffing plan into a pool of options. The manager's job is to keep moving between the immediate problem and the whole operation.</div>
+  </div>
+  <div class="offset navy">
+    <span class="deco" aria-hidden="true"></span>
+    <div class="card ticket" id="ticket" aria-label="Timeline of the shift">
+      <div class="t-head"><span>SHIFT LOG · BIRMINGHAM</span><span>28 MAY</span></div>
+      <dl>
+        <dt>10:30</dt><dd>Queue forms behind the shutter before opening.</dd>
+        <dt>11:00</dt><dd>Fresh and frozen delivery arrives at the back door.</dd>
+        <dt>11:00</dt><dd>Two team members leave Expo to put stock away.</dd>
+        <dt>11:00</dt><dd>Expo runs with 15–20 orders on screen.</dd>
+        <dt>11:30</dt><dd>Dining room needs immediate support.</dd>
+        <dt>15:00</dt><dd>Breaks covered while service stays on time.</dd>
+        <dt>Close</dt><dd>Trading finishes around £11,000 after discounts.</dd>
+      </dl>
+    </div>
+  </div>
+</div></section>
+
+<div class="band"><div class="inner">
+  <div>
+    <div class="case-tag" style="color:var(--lime)">Case 3 · Procurement &amp; influence</div>
+    <h2 class="reveal" style="margin-top:10px">The quote was too high</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>The uniform quote looked wrong.</p>
+      <p>At Fresh Bake, the first store was being built from scratch and every decision had another one waiting behind it. I was the youngest person at the table. About 90% of the time, other people tried their own ideas first. With many stakeholders and no clear chain of command, a decision agreed with my line manager could be overruled by someone else and later come back in a similar form.</p>
+      <p>After working hours, I researched local suppliers in Leicester, tested prices, and kept negotiating until one supplier agreed to my price. I told nobody until there was a significantly better quote to put in front of the Operations Director. He did his own due diligence and switched supplier.</p>
+      <p>Uniform costs came down by about 40%. Ingredients came down by about 5% using the same approach.</p>
+    </div>
+  </div>
+  <div style="display:grid;align-content:center;gap:0">
+    <div class="quote reveal">Being the youngest person in the room mattered less once there was something concrete to put on the table.</div>
+    <div class="who">What I took from it: a tested solution gives an idea weight when authority is unclear. In procurement, the negotiation often starts with the work done before anyone enters the conversation.</div>
+  </div>
+</div></div>
+
+<section class="case"><div class="inner split flip">
+  <div>
+    <div class="case-tag">Case 4 · People</div>
+    <h2 class="reveal">The hire I nearly didn't make</h2>
+    <div class="prose">
+      <p class="lead">He was new to the UK, still finding his words, and the interview did not go smoothly. My first instinct at Fresh Bake was to say no.</p>
+      <p>Then I remembered my own second day at Greggs: alone on a counter, unable to follow half of what customers said, and close to quitting that night. Someone had given me the chance to get through that week. So I hired him, and trained him on guest experience until the counter felt like his.</p>
+      <p>After I left Fresh Bake, he became the store's Assistant Manager. It is one of the things I am proudest of.</p>
+      <p>At Shake Shack, a new team member was so slow that I was close to ending his probation. After a shift I talked to him as a friend rather than a manager, and what he told me changed how I managed him. He showed me how to delegate to him, and two months later he was Employee of the Month. When I left, every member of the team wrote in my farewell card.</p>
+    </div>
+    <div class="lesson reveal"><b>What I took from it</b>I hire for energy and attitude, because everything else can be taught. And when someone is struggling, the conversation comes before the decision.</div>
+  </div>
+  <div class="offset">
+    <span class="deco" aria-hidden="true"></span>
+    <div class="card" id="after">
+      <h3 style="font-size:22px">What happened next</h3>
+      <ul class="route" style="padding-left:22px">
+        <li class="active"><span class="yr">Fresh Bake</span><div><b>Nearly rejected</b><span>Became the store's Assistant Manager after I left</span></div></li>
+        <li class="active"><span class="yr">Shake Shack</span><div><b>Nearly failed probation</b><span>Employee of the Month two months later</span></div></li>
+        <li class="active"><span class="yr">Last shift</span><div><b>Farewell card</b><span>Written in by every member of the team</span></div></li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="how"><div class="inner">
+  <h2 class="reveal">How I work</h2>
+  <p class="lead">Six habits, each learned on a real shift. <span style="color:var(--muted);font-size:17px">Hover or focus a card to open it.</span></p>
+  <div class="habits">
+    <div class="habit" tabindex="0">
+      <div class="front"><span class="ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M6 20 24 7l18 13v21H6z"/><path d="M19 41V28h10v13"/><path d="M6 20h36"/></svg></span><div><h3>Every corner is mine</h3><div class="hint">Open</div></div></div>
+      <div class="back"><h3>Every corner is mine</h3><p>I want to be proud of what I am building. There is no &ldquo;that&rsquo;s the owner&rsquo;s problem&rdquo; and no &ldquo;that&rsquo;s not in my job description&rdquo;: the whole store is mine, so every problem in it is mine to fix. What counts is the result, not the hours it takes.</p></div>
+    </div>
+    <div class="habit" tabindex="0">
+      <div class="front"><span class="ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="24" cy="27" r="15"/><path d="M24 27V18M20 6h8M24 6v6M36 13l3-3"/></svg></span><div><h3>Time it myself first</h3><div class="hint">Open</div></div></div>
+      <div class="back"><h3>Time it myself first</h3><p>I do every task myself and time it before handing it to the team. That sets a practical standard and shows where the work can be simplified.</p></div>
+    </div>
+    <div class="habit" tabindex="0">
+      <div class="front"><span class="ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M6 8h36L28 26v14l-8-4V26z"/></svg></span><div><h3>Find the bottleneck</h3><div class="hint">Open</div></div></div>
+      <div class="back"><h3>Find the bottleneck</h3><p>I watch a process closely before I change it. The aim is to find the point where time, cost or capacity is actually being lost.</p></div>
+    </div>
+    <div class="habit" tabindex="0">
+      <div class="front"><span class="ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 26V12a3 3 0 0 1 6 0v10M20 22V9a3 3 0 0 1 6 0v13M26 22V11a3 3 0 0 1 6 0v13M32 24v-6a3 3 0 0 1 6 0v10c0 8-6 14-14 14h-2c-6 0-9-3-12-8l-4-7a3 3 0 0 1 5-3l3 4"/></svg></span><div><h3>Get my hands dirty</h3><div class="hint">Open</div></div></div>
+      <div class="back"><h3>Get my hands dirty</h3><p>My first response to a problem is to work alongside the team. That is the difference between a process on paper and a process that survives a busy shift.</p></div>
+    </div>
+    <div class="habit" tabindex="0">
+      <div class="front"><span class="ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="24" cy="10" r="5"/><circle cx="10" cy="36" r="5"/><circle cx="38" cy="36" r="5"/><path d="M21 15 13 31M27 15l8 16M15 36h18"/></svg></span><div><h3>Build multi-skilled teams</h3><div class="hint">Open</div></div></div>
+      <div class="back"><h3>Build multi-skilled teams</h3><p>I train people beyond one station whenever possible. When demand suddenly moves, the team can move with it. <a href="#work" style="color:var(--lime)">See case 2.</a></p></div>
+    </div>
+    <div class="habit" tabindex="0">
+      <div class="front"><span class="ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M6 10h24v16H16l-6 6v-6H6z"/><path d="M34 18h8v16h-4v5l-6-5H20v-4"/></svg></span><div><h3>Know people personally</h3><div class="hint">Open</div></div></div>
+      <div class="back"><h3>Know people personally</h3><p>People confide more when the relationship goes beyond instructions. That can reveal problems a report will never show.</p></div>
+    </div>
+  </div>
+
+  <div class="plan-bar" aria-label="First 90 days">
+    <h3 style="font-size:24px;margin-bottom:14px">My first 90 days</h3>
+    <div class="plan-track"><i id="plan-fill"></i></div>
+    <div class="plan-marks">
+      <div><span class="d">Days 1–15</span><b>Learn</b><span>Get trained, understand the processes and identify the bottlenecks.</span></div>
+      <div><span class="d">Days 16–30</span><b>Question</b><span>Understand why each process exists and why it works that way.</span></div>
+      <div><span class="d">Days 31–60</span><b>Experiment</b><span>Fix the bottlenecks and test better ways of working.</span></div>
+      <div><span class="d">Days 61–90</span><b>Finalise</b><span>Turn the strongest experiments into established processes.</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="inner split">
+  <div>
+    <div class="case-tag">Built with AI</div>
+    <h2 class="reveal" style="margin-top:10px">FIREWATCH OS: the dashboard we run our household on</h2>
+    <div class="prose">
+      <p>My wife and I run our finances, our long-term plan and our daily routines from one command centre I built with Claude Code. It tracks income, expenses and the savings trend, a ten-year wealth plan broken into quarterly targets, and health and training routines.</p>
+      <p>I decided what question each screen had to answer; the AI wrote most of the code. It is the same instinct I would bring to procurement reporting: decide which number matters, then make it impossible to miss.</p>
+    </div>
+    <div class="stack"><span>Next.js</span><span>Supabase</span><span>Chart.js</span><span>Claude Code</span></div>
+  </div>
+  <div class="offset">
+    <span class="deco" aria-hidden="true"></span>
+    <div class="dash" id="dash" role="img" aria-label="Mock-up of the FIREWATCH OS dashboard with illustrative data">
+      <div class="bar"><i></i><i></i><i></i><span>FIREWATCH OS</span></div>
+      <div class="body">
+        <div class="side"><div>HOME</div><div class="on">FINANCE OPS</div><div>WEALTH OS</div><div>HEALTH</div></div>
+        <div class="main">
+          <span class="tag">Illustrative data · not real figures</span>
+          <div class="kpis">
+            <div><small>Income</small><b>100</b></div>
+            <div><small>Expenses</small><b>62</b></div>
+            <div><small>Saved</small><b>38%</b></div>
+          </div>
+          <svg class="spark" viewBox="0 0 320 120" aria-hidden="true">
+            <line class="grid" x1="0" y1="30" x2="320" y2="30"/><line class="grid" x1="0" y1="60" x2="320" y2="60"/><line class="grid" x1="0" y1="90" x2="320" y2="90"/>
+            <path class="area" d="M8 96 L58 88 L108 90 L158 72 L208 66 L258 50 L308 38 L308 112 L8 112 Z"/>
+            <path class="line" id="spark-line" d="M8 96 L58 88 L108 90 L158 72 L208 66 L258 50 L308 38"/>
+            <circle class="endpt" cx="308" cy="38" r="5"/>
+            <text x="8" y="118">Savings trend</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="questions"><div class="inner">
+  <h2 class="reveal">Questions employers ask</h2>
+  <div class="faq">
+    <details open><summary>Why ADM?</summary><p>Every role I have held since 2022 has been in food: ordering ingredients, counting stock, fighting waste and chasing suppliers from the restaurant end of the chain. ADM works at the other end of that same chain, and in Szamotuły, near Poznań, it crushes, refines and bottles edible oils around the clock. The procurement numbers in this role are attached to real food operations, which is where I understand them best.</p><p style="margin-top:10px">The role itself is to establish a new capability inside Global Procurement. Twice I have helped build something from nothing: a brand's first store and a new restaurant opening. ADM's own value of excellence, to take every opportunity to improve, is how I already try to work. My next step is to grow into an operations manager, and a team that supports 32 countries is the place to learn how operations run at scale.</p></details>
+    <details><summary>Can you work in Poland?</summary><p>I am an Indian national, so I would join on a Type A work permit. Since June 2025 it no longer requires a labour market test: the process on your side is registering the vacancy and supporting the permit application. I am glad to walk your HR team through the steps.</p></details>
+    <details><summary>Would you relocate to Poznań and work from the office?</summary><p>Yes. I would relocate to Poznań, and three days a week in the office suits the way I work: close to the team and the numbers.</p></details>
+    <details><summary>When can you start?</summary><p>I am available immediately, subject to the permit.</p></details>
+    <details><summary>Why move from restaurants into a procurement analyst role?</summary><p>Operations is a department, not a job title. Manufacturing taught me procurement, production planning and supply chain; food retail taught me demand, waste and margin; restaurants added live pressure, suppliers every day and commercial control. The part I kept coming back to was the numbers behind the operation, and this role puts that part at the centre.</p></details>
+    <details><summary>What languages do you speak?</summary><p>English and Hindi fluently, and Gujarati is my native language. The role runs in English.</p></details>
+    <details><summary>What qualifications do you bring?</summary><p>B.Tech in Mechanical Engineering from C. U. Shah University, an MBA in Operations Management (2:1) from Aston University, BCS Foundation and Practitioner certificates in Business Analysis, IBM certificates in data analysis with Python, SQL and Excel dashboards, and Food Safety, Fire Marshal and First Aid at Level 2.</p></details>
+  </div>
+  <p class="lead reveal" style="margin-top:36px;font-family:var(--slab);font-weight:700;color:var(--navy)">I would like to help build ADM&rsquo;s procurement performance capability in Poznań: improving systems, testing ideas and taking responsibility for what happens when the plan meets reality.</p>
+  <div class="btns" style="margin-top:22px">
+    <a class="pill dark" href="https://www.linkedin.com/in/urvishkumar-badreshiya/" rel="noopener">Connect on LinkedIn</a>
+    <a class="pill line" href="#top">Back to top</a>
+  </div>
+</div></section>
+
+<footer><div class="inner">
+  <span><b>Urvishkumar Badreshiya</b> · urvish.mb@gmail.com · +91 99988 28555</span>
+  <span>Personal page. Not affiliated with or endorsed by any employer named here. No employer documents are published.</span>
+</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+/* Copy buttons */
+document.querySelectorAll('.copy').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var el = document.getElementById(btn.getAttribute('data-copy'));
+    var text = el ? el.textContent.trim() : '';
+    function selectIt() {
+      try { var r = document.createRange(); r.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {}
+      btn.textContent = 'Selected';
+    }
+    try { navigator.clipboard.writeText(text).then(function () { btn.textContent = 'Copied'; }, selectIt); } catch (e) { selectIt(); }
+    setTimeout(function () { btn.textContent = 'Copy'; }, 1800);
+  });
+});
+
+/* Static ring geometry (final state; visible without JS or with reduced motion) */
+var C = 2 * Math.PI * 46;
+document.querySelectorAll('.stat').forEach(function (st) {
+  var fg = st.querySelector('.fg'), pct = +st.getAttribute('data-ring'), seg = +st.getAttribute('data-segments') || 0;
+  fg.style.strokeDasharray = C;
+  if (seg) {
+    fg.style.strokeLinecap = 'butt';
+    var g = st.querySelector('.gaps');
+    if (g && !g.childNodes.length) {
+      for (var k = 0; k < seg; k++) {
+        var ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        ln.setAttribute('x1', '98'); ln.setAttribute('y1', '56'); ln.setAttribute('x2', '112'); ln.setAttribute('y2', '56');
+        ln.setAttribute('transform', 'rotate(' + (360 * k / seg) + ' 56 56)');
+        g.appendChild(ln);
+      }
+    }
+  }
+  fg.style.strokeDashoffset = seg ? 0 : C * (1 - pct / 100);
+  var tick = st.querySelector('.tick'), t = +st.getAttribute('data-tick');
+  if (tick && t) tick.setAttribute('transform', 'rotate(' + (360 * t / 100) + ' 56 56)');
+});
+
+/* Route highlighting (works with or without GSAP) */
+var routeItems = Array.prototype.slice.call(document.querySelectorAll('#route li'));
+var mapPts = Array.prototype.slice.call(document.querySelectorAll('.route-map .pt'));
+function setStops(list) {
+  var max = Math.max.apply(null, list);
+  routeItems.forEach(function (li) { li.classList.toggle('active', list.indexOf(+li.getAttribute('data-i')) > -1); });
+  mapPts.forEach(function (p) { p.classList.toggle('on', +p.getAttribute('data-pt') <= max); });
+}
+
+(function () {
+  if (!window.gsap || !window.ScrollTrigger) { setStops([0,1,2,3,4,5,6]); return; }
+  gsap.registerPlugin(ScrollTrigger);
+  var mm = gsap.matchMedia();
+
+  mm.add('(prefers-reduced-motion: reduce)', function () { setStops([0,1,2,3,4,5,6]); });
+
+  mm.add('(prefers-reduced-motion: no-preference)', function () {
+    document.documentElement.classList.add('js-motion');
+    var ease = 'power3.out';
+
+    /* Reading progress */
+    gsap.to('#progress', { scaleX: 1, ease: 'none', scrollTrigger: { start: 0, end: 'max', scrub: 0.3 } });
+
+    /* Hero: headline words come into focus, art settles */
+    var h1 = document.getElementById('hero-h1');
+    h1.innerHTML = h1.textContent.split(' ').map(function (w) { return '<span class="w">' + w + '</span>'; }).join(' ');
+    gsap.from('#hero-h1 .w', { y: 18, opacity: 0.15, filter: 'blur(4px)', duration: 0.7, ease: ease, stagger: 0.06, delay: 0.1 });
+    gsap.from('.hero-art .panel', { y: 26, opacity: 0.2, duration: 0.8, ease: ease, delay: 0.35 });
+    gsap.from('.hero-art .disc', { scale: 0.9, opacity: 0.2, duration: 0.8, ease: 'back.out(1.6)', delay: 0.55 });
+    gsap.from('.hero-art .outline', { x: 30, opacity: 0.2, duration: 1, ease: ease, delay: 0.2 });
+
+    /* Headings and lessons materialise as they arrive */
+    gsap.utils.toArray('.reveal').forEach(function (el) {
+      gsap.from(el, { y: 22, opacity: 0.2, filter: 'blur(3px)', duration: 0.7, ease: ease, scrollTrigger: { trigger: el, start: 'top 88%', once: true } });
+    });
+    gsap.utils.toArray('.prose p').forEach(function (el) {
+      gsap.from(el, { y: 14, opacity: 0.3, duration: 0.6, ease: ease, scrollTrigger: { trigger: el, start: 'top 92%', once: true } });
+    });
+
+    /* Gentle parallax on the colour blocks */
+    gsap.utils.toArray('.offset .deco').forEach(function (d) {
+      gsap.fromTo(d, { y: 30 }, { y: -30, ease: 'none', scrollTrigger: { trigger: d.parentNode, start: 'top bottom', end: 'bottom top', scrub: 0.6 } });
+    });
+
+    /* Story: route line and map draw with reading; active stop follows the paragraph */
+    var trace = document.getElementById('trace'), L = trace.getTotalLength();
+    trace.style.strokeDasharray = L; trace.style.strokeDashoffset = L;
+    gsap.fromTo('#route-fill', { scaleY: 0 }, { scaleY: 1, ease: 'none', scrollTrigger: { trigger: '.story', start: 'top 70%', end: 'bottom 60%', scrub: 0.5 } });
+    gsap.to(trace, { strokeDashoffset: 0, ease: 'none', scrollTrigger: { trigger: '.story', start: 'top 70%', end: 'bottom 60%', scrub: 0.5 } });
+    setStops([0]);
+    gsap.utils.toArray('.story p[data-stops]').forEach(function (p) {
+      var stops = p.getAttribute('data-stops').split(',').map(Number);
+      ScrollTrigger.create({ trigger: p, start: 'top 60%', end: 'bottom 40%', onToggle: function (self) { if (self.isActive) setStops(stops); } });
+    });
+    ScrollTrigger.create({ trigger: '.story', start: 'bottom 55%', onEnter: function () { setStops([6]); }, onLeaveBack: function () { setStops([5]); } });
+
+    /* Stat rings fill and numbers count up, once */
+    gsap.utils.toArray('.stat').forEach(function (st, i) {
+      var fg = st.querySelector('.fg'), num = st.querySelector('.num');
+      var pct = +st.getAttribute('data-ring'), seg = +st.getAttribute('data-segments') || 0;
+      var to = +num.getAttribute('data-to'), pre = num.getAttribute('data-prefix') || '', suf = num.getAttribute('data-suffix') || '';
+      ScrollTrigger.create({ trigger: st, start: 'top 85%', once: true, onEnter: function () {
+        var o = { v: 0 };
+        if (seg) {
+          gsap.fromTo(fg, { strokeDashoffset: C }, { strokeDashoffset: 0, duration: 1.4, ease: 'steps(' + seg + ')', delay: i * 0.08 });
+        } else {
+          gsap.fromTo(fg, { strokeDashoffset: C }, { strokeDashoffset: C * (1 - pct / 100), duration: 1.3, ease: ease, delay: i * 0.08 });
+        }
+        gsap.to(o, { v: to, duration: 1.3, ease: ease, delay: i * 0.08, onUpdate: function () { num.textContent = pre + Math.round(o.v) + suf; } });
+      } });
+    });
+
+    /* Variance chart: bars grow from the zero line, then the exception lands */
+    ScrollTrigger.create({ trigger: '#chart', start: 'top 80%', once: true, onEnter: function () {
+      var tl = gsap.timeline();
+      tl.fromTo('#chart .bar.pos', { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: ease, stagger: 0.08 })
+        .fromTo('#chart .bar.neg', { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: ease, stagger: 0.08 }, '-=0.3')
+        .fromTo('#chart .dot', { scale: 0.9, opacity: 0.2 }, { scale: 1, opacity: 1, duration: 0.5, ease: 'back.out(3)' });
+    } });
+
+    /* Shift log prints line by line */
+    ScrollTrigger.create({ trigger: '#ticket', start: 'top 80%', once: true, onEnter: function () {
+      gsap.fromTo('#ticket dt, #ticket dd', { y: 8, opacity: 0.15 }, { y: 0, opacity: 1, duration: 0.4, ease: ease, stagger: 0.07 });
+    } });
+
+    /* What happened next: rows step in */
+    ScrollTrigger.create({ trigger: '#after', start: 'top 80%', once: true, onEnter: function () {
+      gsap.fromTo('#after li', { x: -14, opacity: 0.2 }, { x: 0, opacity: 1, duration: 0.5, ease: ease, stagger: 0.15 });
+    } });
+
+    /* Habit cards arrive in a stagger */
+    ScrollTrigger.create({ trigger: '.habits', start: 'top 85%', once: true, onEnter: function () {
+      gsap.fromTo('.habit', { y: 24, opacity: 0.25 }, { y: 0, opacity: 1, duration: 0.6, ease: ease, stagger: 0.08, clearProps: 'transform,opacity' });
+    } });
+
+    /* 90-day bar fills as you read it */
+    gsap.fromTo('#plan-fill', { scaleX: 0 }, { scaleX: 1, ease: 'none', scrollTrigger: { trigger: '.plan-bar', start: 'top 85%', end: 'bottom 55%', scrub: 0.5 } });
+
+    /* Dashboard: savings line draws in */
+    var sl = document.getElementById('spark-line'), SL = sl.getTotalLength();
+    ScrollTrigger.create({ trigger: '#dash', start: 'top 80%', once: true, onEnter: function () {
+      gsap.fromTo(sl, { strokeDasharray: SL, strokeDashoffset: SL }, { strokeDashoffset: 0, duration: 1.4, ease: 'power2.out' });
+      gsap.fromTo('#dash .kpis div', { y: 10, opacity: 0.2 }, { y: 0, opacity: 1, duration: 0.5, ease: ease, stagger: 0.1 });
+    } });
+
+    return function () { document.documentElement.classList.remove('js-motion'); };
+  });
+})();
+</script>
+
+</body>
+</html>
